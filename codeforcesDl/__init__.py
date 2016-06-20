@@ -1,0 +1,1 @@
+from codeforcesdl import main
