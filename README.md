@@ -26,6 +26,12 @@ cd codeforces-dl
 python setup.py 
 
 ```  
+#### Using pip
+```sh
+ sudo pip install codeforces-dl
+
+```  
+
 ## Usage 
 ```sh 
 usage: codeforcesdl [-h] [-contest CONTEST] [-problem PROBLEM] [-lang LANG]
@@ -43,11 +49,11 @@ optional arguments:
 ```  
 ## Sample  
 ```sh 
-codeforces-dl -contest 682 -problem A -dir Demo -out my_fav_problem.pdf 
+codeforcesdl -contest 682 -problem A -dir Demo -out my_fav_problem.pdf 
 
 ```  
 ```sh 
-codeforces-dl -contest 678 -dir Demo -out problems.pdf
+codeforcesdl -contest 678 -dir Demo -out problems.pdf
 
 ```  
 (Please check [Demo](https://github.com/shravan97/codeforces-dl/blob/master/Demo/) folder for the sample documents)  

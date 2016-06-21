@@ -44,6 +44,13 @@ From source :
 
     python setup.py 
 
+Using pip : 
+''''''''''' 
+
+.. code:: sh
+
+        sudo pip install codeforces-dl  
+
 Usage 
 ~~~~~ 
 
@@ -66,12 +73,12 @@ Sample
 
 .. code:: sh
 
-        codeforces-dl -contest 682 -problem A -dir Demo -out my_fav_problem.pdf  
+        codeforcesdl -contest 682 -problem A -dir Demo -out my_fav_problem.pdf  
         
 
 .. code:: sh
 
-        codeforces-dl -contest 678 -dir Demo -out problems.pdf  
+        codeforcesdl -contest 678 -dir Demo -out problems.pdf  
         
 (Please check `Demo <https://github.com/shravan97/codeforces-dl/blob/master/Demo/>`__ folder for the sample documents)
 
