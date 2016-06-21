@@ -10,5 +10,10 @@ install:
   - pip install setuptools --upgrade
   - pip install nose
   - python setup.py install
+  - pip install coveralls
 script:
-  nosetests
+  nosetests --with-coverage --cover-package=codeforcesDl
+after_success:
+  coveralls
+notifications:
+  email: false
