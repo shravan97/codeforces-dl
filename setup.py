@@ -31,7 +31,7 @@ setup(
   entry_points= {
       'console_scripts':['codeforcesdl = codeforcesDl:'\
       'main']
-  }
+  } ,
 
   url = 'https://github.com/shravan97/codeforces-dl',
 
