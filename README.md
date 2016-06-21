@@ -1,4 +1,8 @@
 # Codeforces-dl :inbox_tray: 
+
+[![Build Status](https://travis-ci.org/shravan97/codeforces-dl.svg?branch=master)](https://travis-ci.org/shravan97/codeforces-dl)  
+
+
 ## Description
 ``` Codeforces-dl ``` lets you download specific problems/problem sets as PDFs from [codeforces.com](http://codeforces.com) for offline practice  
 > *Inspired by* [topcoder-dl](https://github.com/tushar-rishav/topcoder-dl)  
@@ -47,7 +51,7 @@ optional arguments:
   -out OUT          your desired name for output file
 
 ```  
-## Sample Usage 
+## Sample usage 
 ```sh 
 codeforcesdl -contest 682 -problem A -dir Demo -out my_fav_problem.pdf 
 

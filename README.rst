@@ -1,6 +1,10 @@
 Codeforces-dl :inbox_tray: 
 -------------------------- 
 
+.. image:: https://travis-ci.org/shravan97/codeforces-dl.svg?branch=master
+    :target: https://travis-ci.org/shravan97/codeforces-dl  
+    
+
 Description 
 ~~~~~~~~~~~ 
 
