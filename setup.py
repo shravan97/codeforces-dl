@@ -17,7 +17,7 @@ setup(
 
   packages = ['codeforcesDl'],
 
-  version = '1.0.0',
+  version = '1.0.0.1',
 
   description = 'Downloads any problem/problem set '\
   'from any contest hosted in codeforces.com',
