@@ -1,8 +1,7 @@
 try:
-  from distutils.core import setup
-except ImportError:
   from setuptools import setup
-
+except ImportError:
+  from distutils.core import setup
 import sys
 
 req_file = open('requirements.txt','r')
