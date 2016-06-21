@@ -1,6 +1,6 @@
-# :inbox_tray: Codeforces-dl
+# Codeforces-dl :inbox_tray: 
 ## Description
-``` Codeforces-dl ``` lets you download specific problems/problem sets as PDFs from [codeforces.com](http://codeforces.com)  
+``` Codeforces-dl ``` lets you download specific problems/problem sets as PDFs from [codeforces.com](http://codeforces.com) for offline practice  
 > *Inspired by* [topcoder-dl](https://github.com/tushar-rishav/topcoder-dl)  
 
 ## Requirements
@@ -27,7 +27,7 @@ python setup.py
 
 ```  
 ## Usage 
-``` 
+```sh 
 usage: codeforcesdl [-h] [-contest CONTEST] [-problem PROBLEM] [-lang LANG]
                        [-dir DIR] [-out OUT]
 
@@ -41,6 +41,18 @@ optional arguments:
   -out OUT          your desired name for output file
 
 ```  
+## Sample  
+```sh 
+codeforces-dl -contest 682 -problem A -dir Demo -out my_fav_problem.pdf 
+
+```  
+```sh 
+codeforces-dl -contest 678 -dir Demo -out problems.pdf
+
+```  
+(Please check [Demo](https://github.com/shravan97/codeforces-dl/blob/master/Demo/) folder for the sample documents)  
+
+
 ## Contributions
 Found something useful to contribute to this project ? Please feel free to give a pull request :smile:  
 
