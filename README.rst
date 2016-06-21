@@ -68,8 +68,8 @@ Usage
                         saved
       -out OUT          your desired name for output file  
 
-Sample 
-~~~~~~ 
+Sample Usage
+~~~~~~~~~~~~ 
 
 .. code:: sh
 

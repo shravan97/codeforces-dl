@@ -47,7 +47,7 @@ optional arguments:
   -out OUT          your desired name for output file
 
 ```  
-## Sample  
+## Sample Usage 
 ```sh 
 codeforcesdl -contest 682 -problem A -dir Demo -out my_fav_problem.pdf 
 
