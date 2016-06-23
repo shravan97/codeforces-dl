@@ -1,4 +1,4 @@
-import os , sys , argparse , pdfkit , urllib as ul
+import os , argparse , pdfkit , urllib as ul
 from bs4 import BeautifulSoup as bs
 
 class CodeForcesDl:
@@ -56,8 +56,6 @@ class CodeForcesDl:
         return str(soup)
 
     def download_as_pdf(self,out='out.pdf'):
-        cwd = os.getcwd()
-        files = os.listdir(cwd)
         
         print 'Downloading.....'
         content = self.get_html()
@@ -74,9 +72,9 @@ class CodeForcesDl:
         try:
             pdfkit.from_string(unicode(content,'utf-8'),out)
         except IOError:
-        	raise Exception("Please make sure that you downloaded"\
-        	" wkhtmltopdf . \n If not please do it by"\
-        	" typing in : \n sudo apt-get install wkhtmltopdf")
+            raise Exception("Please make sure that you downloaded"\
+            " wkhtmltopdf . \n If not please do it by"\
+            " typing in : \n sudo apt-get install wkhtmltopdf")
 
         print 'Done !! Checkout '\
         ''+ out_file +' in ' + self.directory + ' !'
@@ -107,23 +105,23 @@ def set_options():
     
     args = arg_parser.parse_args()
     
-    if args.contest==None:
+    if args.contest is None:
         raise Exception("Please enter a contest id ")
     else:
         c_id = args.contest
-        if args.problem==None:
+        if args.problem is None:
             probs=-1
         else:
             probs=args.problem
-        if args.lang==None:
+        if args.lang is None:
             l='en'
         else:
             l=args.lang
-        if args.dir==None:
+        if args.dir is None:
             directory=0
         else:
             directory=args.dir
-        if args.out==None:
+        if args.out is None:
             out_file = 'out.pdf'
         else:
             out_file = args.out
