@@ -1,7 +1,7 @@
-import os , argparse , pdfkit , urllib as ul
+import argparse , pdfkit , urllib as ul
 from bs4 import BeautifulSoup as bs
 
-class CodeForcesDl:
+class CodeForcesDl(object):
     def __init__(self,contest_id=None , problem=-1 , locale='en' , directory=0):
         if not contest_id:
             raise Exception("Please enter in the contest ID")
