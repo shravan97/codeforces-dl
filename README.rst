@@ -2,8 +2,14 @@ Codeforces-dl :inbox_tray:
 -------------------------- 
 
 .. image:: https://travis-ci.org/shravan97/codeforces-dl.svg?branch=master
-    :target: https://travis-ci.org/shravan97/codeforces-dl  
+    :target: https://travis-ci.org/shravan97/codeforces-dl
+  
+.. image:: https://badge.fury.io/py/codeforces-dl.svg
+    :target: https://badge.fury.io/py/codeforces-dl  
     
+.. image:: https://landscape.io/github/shravan97/codeforces-dl/master/landscape.svg?style=flat
+   :target: https://landscape.io/github/shravan97/codeforces-dl/master
+   :alt: Code Health  
 
 Description 
 ~~~~~~~~~~~ 

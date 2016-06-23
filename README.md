@@ -1,7 +1,10 @@
 # Codeforces-dl :inbox_tray: 
 
-[![Build Status](https://travis-ci.org/shravan97/codeforces-dl.svg?branch=master)](https://travis-ci.org/shravan97/codeforces-dl)  
-
+[![Build Status](https://travis-ci.org/shravan97/codeforces-dl.svg?branch=master)](https://travis-ci.org/shravan97/codeforces-dl)
+&nbsp;&nbsp;
+[![PyPI version](https://badge.fury.io/py/codeforces-dl.svg)](https://badge.fury.io/py/codeforces-dl)
+&nbsp;&nbsp;
+[![Code Health](https://landscape.io/github/shravan97/codeforces-dl/master/landscape.svg?style=flat)](https://landscape.io/github/shravan97/codeforces-dl/master)  
 
 ## Description
 ``` Codeforces-dl ``` lets you download specific problems/problem sets as PDFs from [codeforces.com](http://codeforces.com) for offline practice  
