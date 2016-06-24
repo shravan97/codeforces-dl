@@ -38,6 +38,14 @@ python setup.py
  sudo pip install codeforces-dl
 
 ```  
+#### By downloading the Zip/Tar file
+You can also download the zip/tar file from [here](https://github.com/shravan97/codeforces-dl/releases/tag/1.0.0.1) and then unzip the contents to a folder and run  
+```bash 
+python setup.py
+
+```  
+
+
 
 ## Usage 
 ```sh 
