@@ -115,4 +115,6 @@ Contributors
 License 
 ~~~~~~~ 
 
-GNU General Public License v3 (GPLv3)
+GNU General Public License v3 (GPLv3)  
+
+.. image:: https://cloud.githubusercontent.com/assets/10980285/16361582/a40f472a-3bb2-11e6-80c4-dd633af6c284.png
